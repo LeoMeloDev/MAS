@@ -113,3 +113,33 @@ table {
   }
 
 }
+
+/**********
+  DESKTOP
+**********/
+
+@media only screen and (min-width: 768px) {
+
+.wrapper {
+  display: block;
+  margin: 20% auto;
+  background-color: #f1f2f3;
+}
+
+#tabs ul li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 1.3em;
+  outline: none;
+  background-color: #0076AB;
+}
+
+#tabs ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#tabs ul li a.active {
+  font-weight: bold;
+  color: #4d4d4d;
+}
