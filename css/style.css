@@ -102,6 +102,14 @@ table {
     color: #4d4d4d;
   }
 
+  #tabs ul li a:active, #tabs ul li a:focus {
+    color: #4d4d4d;
+    font-weight: bold;
+    border: none;
+    outline: none;
+
+  }
+
   .tab-content {
     padding: 10%;
     line-height: 1.8;
@@ -142,6 +150,14 @@ table {
 #tabs ul li a.active {
   font-weight: bold;
   color: #4d4d4d;
+}
+
+#tabs ul li a:active, #tabs ul li a:focus {
+  color: #4d4d4d;
+  font-weight: bold;
+  border: none;
+  outline: none;
+
 }
 
 .tab-content {
