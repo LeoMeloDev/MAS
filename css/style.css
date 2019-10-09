@@ -78,5 +78,28 @@ table {
     width: 100%;
   }
 
+  #tabs ul {
+    border: 1px solid #000;
+  }
+
+  #tabs ul li {
+    display: block;
+    border-right: none;
+    padding: 15px;
+    font-size: 1.3em;
+    outline: none;
+    background-color: #0076AB;
+    text-align: center;
+  }
+
+  #tabs ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #tabs ul li a.active {
+    font-weight: bold;
+    color: #4d4d4d;
+  }
 
 }
