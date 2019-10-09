@@ -143,3 +143,13 @@ table {
   font-weight: bold;
   color: #4d4d4d;
 }
+
+.tab-content {
+  padding: 25px;
+  line-height: 1.8;
+  font-size: 1.1em;
+}
+
+.tab-content p {
+  color: #333;
+}
